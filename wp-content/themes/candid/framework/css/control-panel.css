@@ -1,0 +1,155 @@
+/**
+* Control panel
+*/
+#control-panel {
+	position: fixed;
+	top: 200px;
+	left: -230px;
+	width: 230px;
+	z-index: 100000;
+	color: #444;
+	overflow: visible;
+}
+
+#control-panel h3 {
+	font-size: 13px;
+	margin-bottom: 15px;
+	color: #9ba1a3;
+}
+
+#control-panel a {
+	color: #444;
+	padding: 2px;
+}
+
+#control-panel a.active {
+	background-color: #CCC;
+}
+
+#control-panel a:hover {
+	background-color: #CCC;
+}
+
+#control-panel ul {
+	margin-bottom: 10px;
+}
+
+#control-panel .panel-container {
+	float: left;
+	width: 230px;
+}
+
+#control-panel .panel-switcher {
+	position: absolute;
+	top: 0;
+	left: 230px;
+	width: 50px;
+	height: 50px;
+	background-color: #666b6d;
+	text-align: center;
+	font-size: 29px;
+	cursor: pointer;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-image: url(../images/cp.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#control-panel .panel-header {
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 50px;
+	background-color: #666b6d;
+	color: rgba(0, 0, 0, 0.71);
+	font-weight: 600;
+	text-transform: uppercase;
+	text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.8);
+	position: relative;
+	z-index: 1000;
+}
+#control-panel .panel-header:before {
+	content: 'Style Switcher';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	color: #505556;
+	z-index: 0;
+	text-shadow: 0 1px 1px rgba(255,255,255,0.2);
+}
+
+#control-panel .panel-content {
+	width: auto;
+	background-color: #4a4e4f;
+	padding: 20px;
+	border-top: 0;
+	border-bottom-right-radius: 5px;
+}
+
+#panel-main-color-container,
+#background-pattern-container,
+#background-image-container {
+	margin-bottom: 15px;
+	color: #9ba1a3;
+}
+
+#panel-main-color li,
+#background-pattern li,
+#background-image li {
+	float: left;
+}
+
+#panel-main-color li div, #background-pattern li div, #background-image li div {
+	width: 23px;
+	height: 23px;
+	cursor: pointer;
+	margin-right: 4px;
+	margin-bottom: 9px;
+	text-align: center;
+	color: #FFF;
+	line-height: 25px;
+	border: 2px solid rgb(51, 51, 51);
+	border-radius: 4px;
+	box-shadow: 0 0 0 1px rgba(255,255,255,0.1);
+}
+
+#reset-to-defaults {
+	margin-top: 20px;
+}
+
+
+#reset-to-defaults a {
+	color: #9ba1a3;
+	background-color: #353839;
+	padding: 4px 25px;
+	border-radius: 1px;
+	box-shadow: 0 0 0 1px rgba(255,255,255,0.1);
+	text-transform: uppercase;
+}
+
+#reset-to-defaults a:hover {
+	background-color: #DDD;
+}
+#control-panel select {
+	width: 100%;
+	padding: 5px 3%;
+	-webkit-appearance: none;
+	border: 1px solid #666b6d;
+	border-radius: 5px;
+	color: #cccccc;
+	margin-bottom: 10px;
+	position: relative;
+	background: url(../images/corner.png) no-repeat 170px 12px  #4a4e4f;
+	outline: none;
+}
+#control-panel hr {
+	border-top: 1px solid #414444;
+	border-bottom: 1px solid #525657;
+	border-left: 0;
+	margin-left: -20px;
+	width: 229px;
+	margin-bottom: 10px;
+}

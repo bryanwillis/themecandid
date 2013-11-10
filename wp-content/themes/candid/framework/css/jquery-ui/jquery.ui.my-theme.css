@@ -1,0 +1,68 @@
+/*
+ * jQuery UI CSS Framework 1.8.16
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming
+ */
+#section_fonts .ui-slider { position: relative; text-align: left; }
+#section_fonts .ui-slider #section_fonts .ui-slider-handle { position: absolute; z-index: 2; width: 1.2em; height: 1.2em; cursor: default; }
+#section_fonts .ui-slider #section_fonts .ui-slider-range { position: absolute; z-index: 1; font-size: .7em; display: block; border: 0; background-position: 0 0; }
+
+#section_fonts .ui-slider-horizontal { height: .8em; }
+#section_fonts .ui-slider-horizontal #section_fonts .ui-slider-handle { top: -.3em; margin-left: -.6em; }
+#section_fonts .ui-slider-horizontal #section_fonts .ui-slider-range { top: 0; height: 100%; }
+#section_fonts .ui-slider-horizontal #section_fonts .ui-slider-range-min { left: 0; }
+#section_fonts .ui-slider-horizontal #section_fonts .ui-slider-range-max { right: 0; }
+
+#section_fonts .ui-slider-vertical { width: .8em; height: 100px; }
+#section_fonts .ui-slider-vertical #section_fonts .ui-slider-handle { left: -.3em; margin-left: 0; margin-bottom: -.6em; }
+#section_fonts .ui-slider-vertical #section_fonts .ui-slider-range { left: 0; width: 100%; }
+#section_fonts .ui-slider-vertical #section_fonts .ui-slider-range-min { bottom: 0; }
+#section_fonts .ui-slider-vertical #section_fonts .ui-slider-range-max { top: 0; }
+
+/* Component containers
+----------------------------------*/
+#section_fonts .ui-widget { /*font-family: Verdana,Arial,sans-serif;/*{ffDefault}*/  /*font-size: 1.1em;*/   /*{fsDefault}*/ }
+#section_fonts .ui-widget #section_fonts .ui-widget { font-size: 1em; }
+#section_fonts .ui-widget input, #section_fonts .ui-widget select, #section_fonts .ui-widget textarea, #section_fonts .ui-widget button { font-family: Verdana,Arial,sans-serif/*{ffDefault}*/; font-size: 1em; }
+#section_fonts .ui-widget-content { border: /*1px solid #aaaaaa*/ /*{borderColorContent}*/; background: #ffffff/*{bgColorContent}*/ url(images/ui-bg_flat_75_ffffff_40x100.png)/*{bgImgUrlContent}*/ 50%/*{bgContentXPos}*/ 50%/*{bgContentYPos}*/ repeat-x/*{bgContentRepeat}*/; color: #222222/*{fcContent}*/; }
+#section_fonts .ui-widget-content a { /*color: #222222{fcContent}*/; }
+#section_fonts .ui-widget-header { border: 1px solid #aaaaaa/*{borderColorHeader}*/; background: #cccccc/*{bgColorHeader}*/ url(images/ui-bg_highlight-soft_75_cccccc_1x100.png)/*{bgImgUrlHeader}*/ 50%/*{bgHeaderXPos}*/ 50%/*{bgHeaderYPos}*/ repeat-x/*{bgHeaderRepeat}*/; color: #222222/*{fcHeader}*/; font-weight: bold; }
+#section_fonts .ui-widget-header a { color: #222222/*{fcHeader}*/; }
+
+/* Interaction states
+----------------------------------*/
+#section_fonts .ui-state-default, #section_fonts .ui-widget-content #section_fonts .ui-state-default, #section_fonts .ui-widget-header #section_fonts .ui-state-default { border: 1px solid #d3d3d3/*{borderColorDefault}*/; background: #e6e6e6/*{bgColorDefault}*/ url(images/ui-bg_glass_75_e6e6e6_1x400.png)/*{bgImgUrlDefault}*/ 50%/*{bgDefaultXPos}*/ 50%/*{bgDefaultYPos}*/ repeat-x/*{bgDefaultRepeat}*/; font-weight: normal/*{fwDefault}*/; color: #555555/*{fcDefault}*/; }
+#section_fonts .ui-state-default a, #section_fonts .ui-state-default a:link, #section_fonts .ui-state-default a:visited { color: #555555/*{fcDefault}*/; text-decoration: none; }
+#section_fonts .ui-state-hover, #section_fonts .ui-widget-content #section_fonts .ui-state-hover, #section_fonts .ui-widget-header #section_fonts .ui-state-hover, #section_fonts .ui-state-focus, #section_fonts .ui-widget-content #section_fonts .ui-state-focus, #section_fonts .ui-widget-header #section_fonts .ui-state-focus { border: 1px solid #999999/*{borderColorHover}*/; background: #dadada/*{bgColorHover}*/ url(images/ui-bg_glass_75_dadada_1x400.png)/*{bgImgUrlHover}*/ 50%/*{bgHoverXPos}*/ 50%/*{bgHoverYPos}*/ repeat-x/*{bgHoverRepeat}*/; font-weight: normal/*{fwDefault}*/; color: #212121/*{fcHover}*/; }
+#section_fonts .ui-state-hover a, #section_fonts .ui-state-hover a:hover { color: #212121/*{fcHover}*/; text-decoration: none; }
+#section_fonts .ui-state-active, #section_fonts .ui-widget-content #section_fonts .ui-state-active, #section_fonts .ui-widget-header #section_fonts .ui-state-active { border: 1px solid #aaaaaa/*{borderColorActive}*/; background: #ffffff/*{bgColorActive}*/ url(images/ui-bg_glass_65_ffffff_1x400.png)/*{bgImgUrlActive}*/ 50%/*{bgActiveXPos}*/ 50%/*{bgActiveYPos}*/ repeat-x/*{bgActiveRepeat}*/; font-weight: normal/*{fwDefault}*/; color: #212121/*{fcActive}*/; }
+#section_fonts .ui-state-active a, #section_fonts .ui-state-active a:link, #section_fonts .ui-state-active a:visited { color: #212121/*{fcActive}*/; text-decoration: none; }
+#section_fonts .ui-widget :active { outline: none; }
+
+/* Interaction Cues
+----------------------------------*/
+#section_fonts .ui-state-highlight, #section_fonts .ui-widget-content #section_fonts .ui-state-highlight, #section_fonts .ui-widget-header #section_fonts .ui-state-highlight  {border: 1px solid #fcefa1/*{borderColorHighlight}*/; background: #fbf9ee/*{bgColorHighlight}*/ url(images/ui-bg_glass_55_fbf9ee_1x400.png)/*{bgImgUrlHighlight}*/ 50%/*{bgHighlightXPos}*/ 50%/*{bgHighlightYPos}*/ repeat-x/*{bgHighlightRepeat}*/; color: #363636/*{fcHighlight}*/; }
+#section_fonts .ui-state-highlight a, #section_fonts .ui-widget-content #section_fonts .ui-state-highlight a,#section_fonts .ui-widget-header #section_fonts .ui-state-highlight a { color: #363636/*{fcHighlight}*/; }
+#section_fonts .ui-state-error, #section_fonts .ui-widget-content #section_fonts .ui-state-error, #section_fonts .ui-widget-header #section_fonts .ui-state-error {border: 1px solid #cd0a0a/*{borderColorError}*/; background: #fef1ec/*{bgColorError}*/ url(images/ui-bg_glass_95_fef1ec_1x400.png)/*{bgImgUrlError}*/ 50%/*{bgErrorXPos}*/ 50%/*{bgErrorYPos}*/ repeat-x/*{bgErrorRepeat}*/; color: #cd0a0a/*{fcError}*/; }
+#section_fonts .ui-state-error a, #section_fonts .ui-widget-content #section_fonts .ui-state-error a, #section_fonts .ui-widget-header #section_fonts .ui-state-error a { color: #cd0a0a/*{fcError}*/; }
+#section_fonts .ui-state-error-text, #section_fonts .ui-widget-content #section_fonts .ui-state-error-text, #section_fonts .ui-widget-header #section_fonts .ui-state-error-text { color: #cd0a0a/*{fcError}*/; }
+#section_fonts .ui-priority-primary, #section_fonts .ui-widget-content #section_fonts .ui-priority-primary, #section_fonts .ui-widget-header #section_fonts .ui-priority-primary { font-weight: bold; }
+#section_fonts .ui-priority-secondary, #section_fonts .ui-widget-content #section_fonts .ui-priority-secondary,  #section_fonts .ui-widget-header #section_fonts .ui-priority-secondary { opacity: .7; filter:Alpha(Opacity=70); font-weight: normal; }
+#section_fonts .ui-state-disabled, #section_fonts .ui-widget-content #section_fonts .ui-state-disabled, #section_fonts .ui-widget-header #section_fonts .ui-state-disabled { opacity: .35; filter:Alpha(Opacity=35); background-image: none; }
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+#section_fonts .ui-icon { width: 16px; height: 16px; background-image: url(images/ui-icons_222222_256x240.png)/*{iconsContent}*/; }
+#section_fonts .ui-widget-content #section_fonts .ui-icon {background-image: url(images/ui-icons_222222_256x240.png)/*{iconsContent}*/; }
+#section_fonts .ui-widget-header #section_fonts .ui-icon {background-image: url(images/ui-icons_222222_256x240.png)/*{iconsHeader}*/; }
+#section_fonts .ui-state-default #section_fonts .ui-icon { background-image: url(images/ui-icons_888888_256x240.png)/*{iconsDefault}*/; }
+#section_fonts .ui-state-hover #section_fonts .ui-icon, #section_fonts .ui-state-focus #section_fonts .ui-icon {background-image: url(images/ui-icons_454545_256x240.png)/*{iconsHover}*/; }
+#section_fonts .ui-state-active #section_fonts .ui-icon {background-image: url(images/ui-icons_454545_256x240.png)/*{iconsActive}*/; }
+#section_fonts .ui-state-highlight #section_fonts .ui-icon {background-image: url(images/ui-icons_2e83ff_256x240.png)/*{iconsHighlight}*/; }
+#section_fonts .ui-state-error #section_fonts .ui-icon, #section_fonts .ui-state-error-text #section_fonts .ui-icon {background-image: url(images/ui-icons_cd0a0a_256x240.png)/*{iconsError}*/; }s

@@ -1,0 +1,236 @@
+body {
+
+	width: 100%;
+
+}
+
+.container {
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+}
+
+.wrapper {
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+}
+
+.w960 .container,
+
+.b960 .container {
+
+	max-width: 984.6153846px;
+
+}
+
+.w1170 .container,
+
+.b1170 .container {
+
+	max-width:1200px;
+
+}
+
+.w960 .wrapper,
+
+.w1170 .wrapper {
+
+	width: 100%;
+
+}
+
+.b960 .wrapper {
+max-width: 1104.615385px;
+}
+
+.b1170 .wrapper {
+max-width: 1320px;
+}
+.b1170 .container,  .b960 .container {
+padding-left: 60px;
+padding-right: 60px;
+}
+
+/* Grid >> Global
+
+----------------------------------------------------------------------------------------------------*/
+
+.grid_1,
+
+.grid_2,
+
+.grid_3,
+
+.grid_4,
+
+.grid_5,
+
+.grid_6,
+
+.grid_7,
+
+.grid_8,
+
+.grid_9,
+
+.grid_10,
+
+.grid_11,
+
+.grid_12 {
+
+	display: inline;
+
+	float: left;
+
+	margin: 0 1.25%;
+
+}
+
+
+
+/* Grid >> 12 Columns
+
+----------------------------------------------------------------------------------------------------*/
+
+
+
+.container .grid_1 {
+
+	width: 5.833333%;
+
+}
+
+.container .grid_2 {
+
+	width: 14.166666%;
+
+}
+
+.container .grid_3 {
+
+	width: 22.5%;
+
+}
+
+.container .grid_4 {
+
+	width: 30.833333%;
+
+}
+
+.container .grid_5 {
+
+	width: 39.166666%;
+
+}
+
+.container .grid_6 {
+
+	width: 47.5%;
+
+}
+
+.container .grid_7 {
+
+	width: 55.833333%;
+
+}
+
+.container .grid_8 {
+
+	width: 64.166666%;
+
+}
+
+.container .grid_9 {
+
+	width: 72.5%;
+
+}
+
+.container .grid_10 {
+
+	width: 80.833333%;
+
+}
+
+.container .grid_11 {
+
+	width: 89.166666%;
+
+}
+
+.container .grid_12 {
+
+	width: 97.5%;
+
+}
+
+
+
+/* `Clear Floated Elements
+
+----------------------------------------------------------------------------------------------------*/
+
+
+
+.clear {
+
+	clear: both;
+
+	display: block;
+
+	overflow: hidden;
+
+	visibility: hidden;
+
+	width: 0;
+
+	height: 0;
+
+}
+
+
+
+.clearfix:before,
+
+.clearfix:after,
+
+.container:before,
+
+.container:after {
+
+	content: '.';
+
+	display: block;
+
+	overflow: hidden;
+
+	visibility: hidden;
+
+	font-size: 0;
+
+	line-height: 0;
+
+	width: 0;
+
+	height: 0;
+
+}
+
+
+
+.clearfix:after,
+
+.container:after {
+
+	clear: both;
+
+}
+
